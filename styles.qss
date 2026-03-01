@@ -1,0 +1,55 @@
+QMainWindow {
+    background-color: #f5f5f7;
+}
+
+/* ===== 浏览器风格 Tabs ===== */
+QTabBar::tab {
+    background: #e8e8ea;
+    border: none;
+    padding: 6px 14px;
+    margin-right: 4px;
+    border-radius: 6px 6px 0 0;
+}
+
+QTabBar::tab:selected {
+    background: white;
+}
+
+QTabBar::tab:hover {
+    background: #dcdcdc;
+}
+
+/* ===== 右侧限制列表 ===== */
+QListWidget {
+    background: white;
+    border: none;
+    font-size: 14px;
+}
+
+QListWidget::item {
+    padding: 8px;
+    border: none;
+}
+
+QListWidget::item:hover {
+    background: #eeeeee;
+}
+
+QListWidget::item:selected {
+    background: #d6d6d6;
+}
+
+/* 滚动条简洁化 */
+QScrollBar:vertical {
+    width: 8px;
+    background: transparent;
+}
+QScrollBar::handle:vertical {
+    background: #cccccc;
+    border-radius: 4px;
+}
+
+QStackedWidget, QStackedWidget > QWidget {
+    border: none;
+    background: transparent;
+}
